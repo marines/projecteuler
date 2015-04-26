@@ -12,3 +12,7 @@ Nasty bruteforce. Probably could have been solved on a piece of paper but this o
 ### Problem 46
 
 Well, that was quick. Didn't expect the result to be so small number hence high iterations number. Works quite quick.
+
+### Problem 55
+
+This time solution in JS since I didn't have any dev environment nearby. Pretty straightforward. Didn't think it will run so quick. Additional checks for written functions.
