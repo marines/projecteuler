@@ -9,4 +9,4 @@ Nasty bruteforce. Probably could have been solved on a piece of paper but this o
 
 ### Problem 46
 
-Well, that was quick.
+Well, that was quick. Didn't expect the result to be so small number hence high iterations number. Works quite quick.
