@@ -1,5 +1,7 @@
 # projecteuler
-My solutions of Project Euler problems.
+My solutions of Project Euler problems. A lot of solutions are still laying on my disk since they're few years old and I've just recently decided to put them on GitHub.
+
+![marines on Project Euler](https://projecteuler.net/profile/marines.png)
 
 ## Comments to solutions
 
