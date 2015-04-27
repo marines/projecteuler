@@ -4,8 +4,8 @@ function f(n) {
 	for (var c = 3; c <= n; c++) {
 		console.log(c);
 	for (var b = 2; b <= c; b++) {
-	for (var a = 1; a <= b; a++) {
-		if (a+b>c && a+c>b && b+c>a) {
+	for (var a = c-b; a <= b; a++) {
+		if (a+b>c && b+c>a) {
 			var m = Math.sqrt((2*b*b + 2*a*a - c*c)/4);
 			if (m % 1 === 0) {
 				count++;
