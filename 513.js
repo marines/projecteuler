@@ -1,0 +1,20 @@
+// not finished
+function f(n) {
+	var count = 0;
+	for (var c = 3; c <= n; c++) {
+		console.log(c);
+	for (var b = 2; b <= c; b++) {
+	for (var a = 1; a <= b; a++) {
+		if (a+b>c && a+c>b && b+c>a) {
+			var m = Math.sqrt((2*b*b + 2*a*a - c*c)/4);
+			if (m % 1 === 0) {
+				count++;
+			}
+		}
+	}}}
+	return count;
+}
+
+console.log(f(10) + ' == 3?');
+console.log(f(50) + ' == 165?');
+console.log(f(100000) + ' == ?');
