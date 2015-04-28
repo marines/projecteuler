@@ -17,6 +17,10 @@ Well, that was quick. Didn't expect the result to be so small number hence high 
 
 This time solution in JS since I didn't have any dev environment nearby. Pretty straightforward. Didn't think it will run so quick. Additional checks for written functions.
 
+### Problem 59
+
+Three letter password is short enough to brute force the solution. I've taken "that" and "the" as common English words which should be present in the decrypted text.
+
 ### Problem 79
 
 OK, I think the solution is tricky. I have mixed feelings about it. Couldn't come up with any better idea after I managed to solve it this way. The code basically only checks whether given pincode will match every given triple. If it doesn't it suggests solution. Based on the suggestion I've swapped some digits and passed working combibation as base pincode to further analysis. Eventually the base pincode was the solution. So it's semi-automatic. :)
